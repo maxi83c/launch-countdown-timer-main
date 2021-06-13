@@ -8,7 +8,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -24,19 +23,15 @@ Users should be able to:
 
 ### Screenshots
 
-![screenshot](https://raw.githubusercontent.com/maxi83c/pokedex/master/screenshots/screenshot1.jpg)
+![screenshot](https://raw.githubusercontent.com/maxi83c/launch-countdown-timer-main/master/screenshots/mobile.png)
 
-![screenshot](https://raw.githubusercontent.com/maxi83c/pokedex/master/screenshots/screenshot2.jpg)
-
-
+![screenshot](https://raw.githubusercontent.com/maxi83c/launch-countdown-timer-main/master/screenshots/desktop.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [Add solution URL here](https://github.com/maxi83c/launch-countdown-timer-main)
+- Live Site URL: [Add live site URL here](https://maxi83c.github.io/launch-countdown-timer-main)
 
 ### Built with
 

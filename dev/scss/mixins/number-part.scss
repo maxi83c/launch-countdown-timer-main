@@ -16,7 +16,7 @@
     @include laptop{
       height: 74px;
       width: 140px;
-      font-size: 4.14rem;
+      font-size: 4.8rem;
       background-size: 12px 12px, 12px 12px;
     }
 }
@@ -26,6 +26,7 @@
   border-radius: 5px 5px 0 0;
   line-height: 66px;
   background-position: -2px 29px, 66px 29px;
+  color: $dark-soft-red;
 
   @include laptop{
     line-height: 148px;

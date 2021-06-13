@@ -107,7 +107,7 @@
       }
 
       &--animate{
-        animation: animate .9s infinite linear;
+        animation: animate 1s infinite linear;
         transform-origin: bottom;
         transform-style: preserve-3d;
       }

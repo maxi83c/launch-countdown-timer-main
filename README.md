@@ -6,8 +6,8 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshots](#screenshots)
   - [Links](#links)
+  - [Screenshots](#screenshots)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -21,6 +21,11 @@ Users should be able to:
 - See a live countdown timer that ticks down every second (start the count at 14 days)
 - **Bonus**: When a number changes, make the card flip from the middle
 
+### Links
+
+- Solution URL: [github.com/maxi83c/launch-countdown-timer-main](https://github.com/maxi83c/launch-countdown-timer-main)
+- Live Site URL: [maxi83c.github.io/launch-countdown-timer-main](https://maxi83c.github.io/launch-countdown-timer-main)
+
 ### Screenshots
 
 ![screenshot](https://raw.githubusercontent.com/maxi83c/launch-countdown-timer-main/master/screenshots/mobile.png)
@@ -28,10 +33,6 @@ Users should be able to:
 ![screenshot](https://raw.githubusercontent.com/maxi83c/launch-countdown-timer-main/master/screenshots/desktop.png)
 
 
-### Links
-
-- Solution URL: [github.com/maxi83c/launch-countdown-timer-main](https://github.com/maxi83c/launch-countdown-timer-main)
-- Live Site URL: [maxi83c.github.io/launch-countdown-timer-main](https://maxi83c.github.io/launch-countdown-timer-main)
 
 ### Built with
 

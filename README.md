@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/maxi83c/launch-countdown-timer-main)
-- Live Site URL: [Add live site URL here](https://maxi83c.github.io/launch-countdown-timer-main)
+- Solution URL: [github.com/maxi83c/launch-countdown-timer-main](https://github.com/maxi83c/launch-countdown-timer-main)
+- Live Site URL: [maxi83c.github.io/launch-countdown-timer-main](https://maxi83c.github.io/launch-countdown-timer-main)
 
 ### Built with
 

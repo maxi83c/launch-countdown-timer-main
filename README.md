@@ -39,6 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - PUG
 - SASS
+- BEM
 - Mobile-first workflow
 
 ## Author

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        link(rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png")
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="css/styles.css")
+        title countdown-timer
+    body
+        h1.title We're launching soon
+        .countdown
+            .countdown__number.days
+                .back
+                .top#days
+                h2.countdown__title Days
+            .countdown__number.hours
+                .back
+                .top#hours
+                h2.countdown__title Hours
+            .countdown__number.minutes
+                .back
+                .top#minutes
+                h2.countdown__title Minutes
+            .countdown__number.seconds
+                .back
+                .top#seconds
+                h2.countdown__title Seconds
+        .social
+            .social__icon
+                img(src="./assets/img/icon-facebook.svg", alt="Facebook icon").social__img
+            .social__icon
+                img(src="./assets/img/icon-pinterest.svg", alt="Pinterest icon").social__img
+            .social__icon
+                img(src="./assets/img/icon-instagram.svg", alt="Instagram icon").social__img
+        script(src="./js/script-dist.js")

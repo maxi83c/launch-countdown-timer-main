@@ -1,0 +1,22 @@
+body {
+  background-color: $Very-dark-blue;
+  min-height: 100vh;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(../assets/img/pattern-hills.svg), url(../assets/img/bg-stars.svg);
+  background-repeat: no-repeat;
+  background-size: auto 200px, cover;
+  background-position: bottom right -200px, top;
+  padding-top: 145px;
+  user-select: none;
+
+  @include tablet{
+    background-size: 100% 150px, cover;
+    background-position: bottom center, top;
+    padding-top: 140px;
+  }
+}

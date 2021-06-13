@@ -1,0 +1,15 @@
+.title{
+  width: 262px;
+  margin: 0;
+  font-size: 0.928rem;
+  color: $white;
+  letter-spacing: 0.4rem;
+  word-spacing: 0.05rem;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include tablet{
+    width: 100%;
+    font-size: 1.45rem;
+  }
+}

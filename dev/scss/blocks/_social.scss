@@ -1,0 +1,25 @@
+.social {
+  width: 136px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &__icon{
+    width: 24px;
+    height: 24px;
+    img{
+      @include laptop{
+        &:hover{
+          // FROM hsl(237, 18%, 59%) TO hsl(345, 95%, 68%);
+          // hue-rotate((345 - 237)deg)  saturate((95 / 18 * 100)%) brightness((68 / 59 * 100)%);
+          filter: hue-rotate(108deg)  saturate(527.77777777%) brightness(115.254237%);
+        }
+      }
+    }
+    
+  }
+}

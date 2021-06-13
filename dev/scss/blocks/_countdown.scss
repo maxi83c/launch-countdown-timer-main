@@ -1,0 +1,144 @@
+.countdown{
+  height: 88px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+
+  @include laptop{
+    height: 182px;
+    width: 690px;
+    margin-top: 110px;
+  }
+
+  .days{
+    --time: var(--days);
+    --time-prev: var(--days-prev);
+  }
+
+  .hours{
+    --time: var(--hours);
+    --time-prev: var(--hours-prev);
+  }
+  
+  .minutes{
+    --time: var(--minutes);
+    --time-prev: var(--minutes-prev);
+  }
+  
+  .seconds{
+    --time: var(--seconds);
+    --time-prev: var(--seconds-prev);
+  }
+
+  &__number{
+    height: 88px;
+    width: 70px;
+
+    @include laptop{
+      height: 182px;
+      width: 140px;
+    }
+
+    position: relative;
+    
+    .back{
+      height: 66px;
+      width: 70px;
+      border-radius: 5px;
+      box-shadow: 0 3px 0 0 $very-dark-mostly-black-blue;
+
+      @include laptop{
+        height: 148px;
+        width: 140px;
+        box-shadow: 0 10px 0 0 $very-dark-mostly-black-blue;
+      }
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      &::after{
+        @include number-part;
+        @include number-part-top;
+        
+        content: var(--time-prev);
+      }
+
+      &::before{
+        @include number-part;
+        @include number-part-bottom;
+        top: 33px;
+        @include laptop{
+          top: 74px;
+        }
+        content: var(--time);
+      }
+    }
+
+    .top{
+      height: 33px;
+      width: 70px;
+
+      @include laptop{
+        height: 74px;
+        width: 140px;
+      }
+      
+      position: absolute;
+      top: 0;
+      left: 0; 
+      
+      &::after{
+        @include number-part;
+        @include number-part-top;
+        backface-visibility: hidden;
+        content: var(--time);
+        transform: translateZ(0);
+       }
+      
+      &::before{
+        @include number-part;
+        @include number-part-bottom;
+        backface-visibility: hidden;
+        top: 0;
+        content: var(--time-prev);
+        transform: translateZ(0) rotateX(-180deg);
+      }
+
+      &--animate{
+        animation: animate .9s infinite linear;
+        transform-origin: bottom;
+        transform-style: preserve-3d;
+      }
+    }
+
+    .countdown__title{
+      font-size: 0.5rem;
+      letter-spacing: 0.2rem;
+      color: $grayish-blue;
+      text-transform: uppercase;
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+
+      @include laptop{
+        font-size: .9rem;
+      }
+    }
+  }
+}
+
+@keyframes animate{
+  0%{
+    transform: rotateX(0) rotateZ(0)   skewY(0);
+  }
+  50%{
+    transform: rotateX(90deg) rotateZ(-10deg)  skewY(10deg);
+  }
+  100%{
+    transform: rotateX(180deg) rotateZ(0) skewY(0);
+  }
+}

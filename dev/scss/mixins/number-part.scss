@@ -1,0 +1,44 @@
+@mixin number-part {
+    height: 33px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: $soft-red;
+    font-size: 2rem;
+    text-align: center;
+    background-image: radial-gradient($very-dark-mostly-black-blue 49%, transparent 50%), 
+                      radial-gradient($very-dark-mostly-black-blue 49%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 6px 6px, 6px 6px;
+
+    @include laptop{
+      height: 74px;
+      width: 140px;
+      font-size: 4.14rem;
+      background-size: 12px 12px, 12px 12px;
+    }
+}
+
+@mixin number-part-top {
+  background-color: $very-dark-desaturated-blue;
+  border-radius: 5px 5px 0 0;
+  line-height: 66px;
+  background-position: -2px 29px, 66px 29px;
+
+  @include laptop{
+    line-height: 148px;
+    background-position: -6px 68px, 134px 68px;
+  }
+}
+
+@mixin number-part-bottom {
+  background-color: $dark-desaturated-blue;
+  line-height: 0px;
+  border-radius: 0 0 5px 5px;
+  background-position: -2px -2px, 66px -2px;
+  @include laptop{
+    background-position: -6px -6px, 134px -6px;
+  }
+}
